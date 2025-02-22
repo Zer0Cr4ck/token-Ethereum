@@ -43,9 +43,6 @@ h2{
     color:var(--White);
     margin: 30px 0 30px 0;
 }
-main p{
-    
-}
 
 #status{
     display: flex;
@@ -57,6 +54,10 @@ main p{
 .iconos{
     width: 15px;
     vertical-align: middle;
+}
+
+.moneda img:nth-child(0){
+    width: 10px;
 }
 
 .moneda span{
