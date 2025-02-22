@@ -19,6 +19,11 @@ body{
     background-color: var(--VerydarkblueMainBG);
     color: var(--Softblue);
     font-family: "Outfit",serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
 }
 
 main{
