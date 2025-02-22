@@ -76,7 +76,9 @@ main p{
     color: var(--White);
 }
 hr{
-    color: var(--VerydarkblueLine);
+    background-color: var(--VerydarkblueLine);
+    height: 1px;
+    border: none;
     
 }
 
