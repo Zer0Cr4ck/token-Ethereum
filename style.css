@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding: 0;
+
+    --Softblue: hsl(215,51%,70%);
+    
+
+    --Cyan: hsl(178, 100%, 50%);
+
+--VerydarkblueMainBG: hsl(217, 54%, 11%);
+--VerydarkblueCardBG: hsl(216, 50%, 16%);
+--VerydarkblueLine: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+    
+}
+
+
+body{
+    background-color: var(--VerydarkblueMainBG);
+    color: var(--Softblue);
+    font-family: "Outfit",serif;
+}
+
+main{
+    width: 400px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: var(--VerydarkblueCardBG);
+    padding: 20px;
+}
+main img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+h2{
+    color:var(--White);
+    margin: 30px 0 30px 0;
+}
+main p{
+    
+}
+
+#status{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 30px 0;
+    align-items: center;
+}
+
+.iconos{
+    width: 15px;
+    vertical-align: middle;
+}
+
+.moneda span{
+    color: var(--Cyan);
+}
+.avatar{
+    display: flex;
+}
+.avatar_user{
+    width: 30px;
+
+    border: 1px solid white;
+    margin-right: 20px;
+}
+
+.avatar strong{
+    color: var(--White);
+}
+hr{
+    color: var(--VerydarkblueLine);
+    
+}
+
+.avatar{
+    margin: 30px 0 30px 0;
+}
